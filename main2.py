@@ -1,12 +1,12 @@
 <html>
     <head>
-        <h1 class="center">This is all about ME and MY PPL</h1><br>
+        <h1 style="color:Black"class="center">This is all about ME and MY PPL!!</h1><br>
         <div>
             <img src="https://media.istockphoto.com/id/700702502/photo/girlfriends-in-the-city.jpg?b=1&s=612x612&w=0&k=20&c=lXeYNGGPKCQdDYoYduVY86cRD1jbcaoIAz3_1S2ob4s="alt="FRIENDSHIP" class="center1">
         </div>
         <br>
         <div class="center1">
-            <h2 class="center2">Dialy Routine Of My Friends</h2>
+            <h2 style="color:Brown" class="center2">What WE basically Do!!</h2>
             <br>
             <ul class="color">
                 <li class="color1">Wake up early in the morning.</li>
@@ -26,7 +26,7 @@
         </div><br><br><br><br>
         <form>
             <fieldset>
-                <legend class="center2">My FRIENDS Personal INFO</legend><br>
+                <legend style="color:Blue"class="center2">About MY PEOPLE!!</legend><br>
                 <table class="color2" border="5" bordercolor="blue">
                     <tr>
                         <th>Name</th>
@@ -34,6 +34,7 @@
                         <th>Sport</th>
                         <th>Food</th>
                         <th>Destination</th>
+                        <th>Color</th>
                         <th>Since</th>
                     </tr>
                     <tr>
@@ -42,6 +43,7 @@
                         <td>Cricket</td>
                         <td>McDonald's </td>
                         <td>Paris</td>
+                        <td>Black</td>
                         <td>19 years</td>
                     </tr>
                     <tr>
@@ -49,7 +51,8 @@
                         <td>19-08-2004</td>
                         <td>Badminton</td>
                         <td>kfc</td>
-                        <td>paris</td>
+                        <td>Paris</td>
+                        <td>Brown</td>
                         <td>15 years</td>
                     </tr>
                     <tr>
@@ -58,6 +61,7 @@
                         <td>cricket</td>
                         <td>kfc</td>
                         <td>Paris</td>
+                        <td>Blue</td>
                         <td>15 years</td>
                     </tr>
                 </table>
