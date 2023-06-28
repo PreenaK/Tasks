@@ -1,0 +1,153 @@
+body {
+    background-image: url(https://i.pinimg.com/474x/f5/98/8c/f5988c9d1ea6892ca9f0ba1274c56823.jpg);
+    width:1500px;
+}
+.a {
+    text-align: center;
+    color:white
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .b{
+    text-align: center;
+    color:coral
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .c{
+    color:orange
+  }
+  #more {display: none;}
+  .d{
+    color:skyblue
+  }
+  .e{
+    color:red
+  }
+  .dropbtn {
+    background-color: rgb(26, 84, 97);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropup content */
+  .dropup {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropup content (Hidden by Default) */
+  .dropup-content {
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    background-color: lightsalmon;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropup */
+  .dropup-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropup links on hover */
+  .dropup-content a:hover {background-color: #ddd}
+  
+  /* Show the dropup menu on hover */
+  .dropup:hover .dropup-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropup button when the dropup content is shown */
+  .dropup:hover .dropbtn {
+    background-color: #2980B9;
+  }
+  .f{
+    color:blue
+  }
+  .g{
+    color:blue
+  }
+  .h{
+    color:blue
+  }
+  .i{
+    color:blue
+  }
+  .j{
+    color:blue
+  }
+  
+  .netflix-logo {
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align:center;
+    text-transform: uppercase;
+    color: rgb(193, 106, 123);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .netflix-logo span {
+    display: inline-block;
+    animation-name: logoAnimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  .netflix-logo .n { animation-delay: 0s; }
+  .netflix-logo .e { animation-delay: 0.1s; }
+  .netflix-logo .t { animation-delay: 0.2s; }
+  .netflix-logo .f { animation-delay: 0.3s; }
+  .netflix-logo .l { animation-delay: 0.4s; }
+  .netflix-logo .i { animation-delay: 0.5s; }
+  .netflix-logo .x { animation-delay: 0.6s; }
+  
+  @keyframes logoAnimation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
